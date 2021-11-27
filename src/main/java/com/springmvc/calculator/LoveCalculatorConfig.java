@@ -61,8 +61,8 @@ public class LoveCalculatorConfig implements WebMvcConfigurer{
         mailSender.setHost("smtp.gmail.com");
         mailSender.setPort(25);
           
-        mailSender.setUsername("kyipyarlwinlkw@gmail.com");
-        mailSender.setPassword("htayhtayshin624");
+        mailSender.setUsername("amdin@gmail.com");
+        mailSender.setPassword("admin");
           
         Properties props = mailSender.getJavaMailProperties();
         props.put("mail.transport.protocol", "smtp");
